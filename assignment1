@@ -1,0 +1,40 @@
+
+    import java.util.Scanner;
+
+           public class ari_xald_mahmood{
+             
+                  public static void main(String[]args)
+
+                         {
+                               Scanner k = new Scanner(System.in);
+                               
+                               System.out.println("how many number  letter your name ?");
+
+                               int num = k.nextint();
+                      
+                               char[]array = new char[num];
+ 
+                               System.out.println("write your name by letters");
+ 
+                               
+                                  for(int x=0;i<array.length;x++){
+
+                                      char name = aa.next().charAt(0);
+                   
+                                      array[x]=name;
+                       
+                         }
+                       
+                               System.out.print("your name is ");
+
+                               for (int x=0;x<num ;x++){
+                               
+                               System.out.print(array[i]);
+
+                         }
+
+                               System.out.println();
+
+                   }
+                        
+                            
